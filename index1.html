@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homepage</title>
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Secular+One&display=swap" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+			
+
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+    $(window).on('scroll', function() {
+        if ($(window).scrollTop()) {
+            $('nav').addClass('black');
+        }
+        else
+        {
+            $('nav').removeClass('black');
+        }
+    })
+    </script>
+</head>
+
+<body>
+
+
+<!--Navigation Bar-->
+
+
+    <nav>
+    <div id="menu">
+        <ul>
+             <div class="logo">
+            <a href="index1.html"><img src="img/logo_blue.png"></a>
+        </div>
+            <li class="link" id="link1"><a href="#">HOME</a></li>
+            <li class="link"><a href="#about">ABOUT ME</a></li>
+            <li id="categories" class="link"><a href="#projects">PROJECTS +</a>
+                <ul>
+                    <li><a href="playlist.html">PLAYLIST</a></li>
+                 
+                    <li id="da">
+                        <a href="games.html">GAMES +</a>
+                        <ul>
+                             <li><a href="games/gamesangrysharks.html">ANGRY SHARKS</a></li>
+                            <li><a href="games/gameschess.html">CHESS</a></li>
+                            <li><a href="games/gamesdoodlejump.html">DOODLE JUMP</a></li>
+                            <li><a href="games/gamesgeometrical.html">GEOMETRICAL DASH</a></li>
+                             <li><a href="games/gameshiddenobjects.html"> HIDDEN OBJECTS</a></li>
+                              <li><a href="games/gamesninjaaction.html">NINJA ACTION</a></li>
+                         
+                                <li><a href="games/gamesofficeguy.html">OFFICE GUY</a></li>
+                                 <li><a href="games/gamespaperio.html">PAPER.IO</a></li>
+                                 <li><a href="games/gamespapersurvive.html">PAPER SURIVE</a></li>
+                             <li><a href="games/gamesrollingpanda.html">ROLLING PANDA</a></li>
+                              <li><a href="games/gamestexttwist2.html">TEXT TWIST 2</a></li>
+                               <li><a href="games/gameszombiebuster.html">ZOMBIE BUSTER</a></li>     
+                        </ul>
+                    </li>
+                       <li><a href="googleform.html">FORM</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>   
+    </nav>
+<!---Bg Cover--->
+
+
+    <section class="sec1">
+		<div class="container">
+	
+		<p class="text1"></p>
+		<p class="text2">CPE-PE 311 PORTFOLIO</p>
+		<p class="text3">This web portfolio is a representation of all that I've learned and accomplished <br>on the subject Software Development 1.</p>
+    <a href="index1.html#projects"><button id="about" class="projects">PROJECTS</button></a>
+	</div>
+	</section >
+<div ></div>
+
+<!---About me--->
+
+<section class="sec2">
+    <div class="columnleft">
+        <img src="img/bryan.png">
+    </div>
+
+    <div class="columnright">
+      <p class="about" >About Me</p>
+     <br><br><br><br><br><br><br><br><br><hr>
+      <p class="content2">Hi, my name is Bryan Revelo. I'm a 3rd year BSCpE Night student in Cebu <br>Technological University-Danao Campus. This is my first web design that <br>I've created, so feel free to send your comments and opinions about this website<br><a href="googleform.html">[ FORM ]<a> </p>  
+</div>
+</section>
+
+<div class="clear"></div>
+<!---Projects-->
+
+<section class="sec3" id="section3">
+ <div class="animate-charcter">
+		<p class="projtitle"  id="projects" >PROJECTS</p>
+ </div>
+
+<div class="container2">
+     <div class="card">
+       <div class="face face1">
+         <div class="content">
+            <i class="fab fa-windows"></i>            
+           <h3>MY PLAYLIST</h3>
+         </div>
+       </div>
+       <div class="face face2">
+         <div class="content">
+           <p>This playlist is a compilation of my favourite League of Legend music. Discover and listen to music with amazing collaborations and eye-catching music videos!</p>
+           <a href="playlist.html" id="cont_a" type="button">PLAYLIST</a>
+         </div>
+       </div>
+    </div>
+      
+    <div class="card">
+       <div class="face face1">
+         <div class="content">
+      <i class="fab fa-android"></i>               
+      <h3>GAMES</h3>
+         </div>
+       </div>
+       <div class="face face2">
+         <div class="content">
+           <p>Take a break and enjoy some of my favourite classic games!</p>
+           <a href="games.html" type="button" id="cont_a">GAMES</a>
+         </div>
+       </div>
+    </div>
+    
+    
+    <div class="card">
+       <div class="face face1">
+         <div class="content">
+           <i class="fab fa-apple"></i>
+            <h3>FORM</h3>
+         </div>
+       </div>
+       <div class="face face2">
+         <div class="content">
+           <p>Send us your opinions and ideas on this website<br><br> Every submission is greatly aprreciated!</p>
+           <a href="googleform.html" type="button" id="cont_a">Form</a>
+         </div>
+       </div>
+    </div>
+    
+  </div>
+
+   </section>
+
+
+<footer>
+    <div class="footer_img">
+        
+    <a href="https://web.facebook.com/revelobryan/" target="_blank"><img src="img/fb.png"></a>
+    <a href="#" target="_blank"><img src="img/pinterest.png"></a>
+    <a href="#" targer="_blank"><img src="img/gmail.png"></a>
+</div>
+<div class="footname">
+    <a href="index1.html"><img src="img/logo_blue.png" ></a>
+
+<p>[Insert Catchy tagline]</p>
+     <p>@2020-2021</p>
+</div>
+
+</footer>
+   
+</body>
+
+</html>
